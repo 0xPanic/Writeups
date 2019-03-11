@@ -14,7 +14,7 @@ these keystrokes from the file: url
 After following the steps to get the keystrokes extracted, I ran a slightly modified version of the script shown in the linked
 writeup.
 
-
+`
 newmap = {
  2: "?",
  4: "a",
@@ -83,6 +83,7 @@ for line in myKeys:
                 print "No map found for this value: " + str(keyVal)
  
     i+=1
+`
 after running the script and replacing newline chars with spaces, I got the following output:
 
 `g p g g     - c   f f l l a a g g s g s . p p n n g Enter u t ? ? n ? ? o ? ? t ? f l a g ? ? [ ? t r y ? ? - ? h a a r r d e e r r ? ? ] ? Enter u t ? ? n ? ? o ? ? t ? f l a g ? ? [ ? t r y ? ? - ? h a r d e e r r ? ? ] ? Enter c p   f l a g g s s . p n g . g p g   / m e d i a / u s s e e r e r / ? ? u ? ? s ? ? b ? / Enter`

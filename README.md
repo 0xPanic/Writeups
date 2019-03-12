@@ -8,7 +8,7 @@ He's too smart to email his plans to himself, but I'm certain he took them with 
 ````
 
 This challenge consisted of a PCAP containing a large amount of USB packets.
-[Wireshark](/img/wireshark.png)
+![Wireshark](/img/wireshark.png)
 This writeup describes in detail how to extract
 these keystrokes from the file: url
 

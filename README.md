@@ -1,4 +1,5 @@
-````Our once-venerable president has committed the unspeakable crime of dine-and-dashing the pizza during our own club meetings. He's on the run as we speak, but we're not sure where he's headed.
+````
+Our once-venerable president has committed the unspeakable crime of dine-and-dashing the pizza during our own club meetings. He's on the run as we speak, but we're not sure where he's headed.
 
 Luckily, he forgot that we had planted a packet sniffer on his laptop, and we were able to retrieve the following capture when we raided his apartment:
 

@@ -107,6 +107,6 @@ It's a file. After redirecting the decoded message to an empty file and running 
 
 ![image in GPG file](/img/theimage.png)
 
-Which is not very useful, so I opened it up with stegsolve.jar and started flipping through different panes until finding:
+Which is not very useful, so I opened it up with stegsolve.jar and started flipping through different planes until finding:
 
 ![flag](/img/stegsolve.png)

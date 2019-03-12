@@ -96,11 +96,11 @@ utNOTflag{try_harder}`
 
 So now I had to find a GPG file in the pcap and decode it with the discovered password. Finding the GPG file wasn't difficult
 since it was the largest packet in the pcap:
-
+![gpg packet in wirehsark](/img/gpgpacket.png)
 After extracting the gpg file and running the command, I was able to decode the message:
-
+![Decoded gpg](/img/data.png)
 It's a file. After redirecting the decoded message to an empty file and running `file` on it, I was able to determine it was a 
 PNG. Opening it revealed the following:
-
+![image in GPG file](/img/theimage.png)
 Which is not very useful, so I opened it up with stegsolve.jar and started flipping through different panes until finding:
-
+![flag](/img/stegsolve.png)

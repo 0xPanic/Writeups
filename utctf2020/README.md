@@ -1,4 +1,4 @@
-spooky store
+#spooky store
 ```
 It's a simple webpage with 3 buttons, you got this :)
 ```
@@ -18,7 +18,7 @@ This worked and printed /etc/passwd, which included the flag
 ![FLAG](/utctf2020/img/xxe4.png)
 
 
-epic admin pwn
+#epic admin pwn
 ```
 this challenge is epic i promise
 ```

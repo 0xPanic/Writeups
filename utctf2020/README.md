@@ -32,7 +32,7 @@ Start off by trying sql injection to login with user Admin and password 'or '1' 
 
 This gives us a static page, which is basically a dead end. Let's try using sqlmap to try and get something more out of the database.
 
-To do this we intercept the login request in burpsuite and save it to a file
+To do this we intercept the login request in burpsuite and save it to a file called post.txt
 
 ![Login](/utctf2020/img/sqli3.png)
 

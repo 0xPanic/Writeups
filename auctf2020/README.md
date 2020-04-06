@@ -1,17 +1,22 @@
 ![Description](/auctf2020/img/description.png)
 
 Clicking the link took me to the default apache page, so I decided to go straight into gobuster to find other pages.
+
 ![Gobuster](/auctf2020/img/gobuster.png)
+
 First time I ran it the /cgi-bin/ directory stood out to me, so I ran it again on that directory and discovered the scriptlet file located within.
 
 ![Scriptlet](/auctf2020/img/whoami.png)
+
 This appears to be a bash script that just runs whoami. Since this is bash, let's try exploiting shellshock. (cgi-bin + ctf - user input = shellshock)
 
 To begin, I intercepted the request firefox was making to the script in burpsuite
 
 ![Burp1](/auctf2020/img/burp1.png)
+
 And then hitting ctrl + R to send it to the repeater to make things eaiser.
 ![Burp2](/auctf2020/img/burp2.png)
+
 To test for shellshock, we can replace the user agent string with `() { :;}; echo; echo vulnerable` . If the response from the server contains the word `vulnerable`, we have a hit.
 
 And it did.

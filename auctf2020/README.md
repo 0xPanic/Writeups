@@ -22,7 +22,7 @@ To test for shellshock, we can replace the user agent string with `() { :;}; ech
 And it did.
 ![Burp3](/auctf2020/img/burp3.png)
 
-My home network wouldn't allow me to catch a reverse shell, but burpsuite is all the shell I need at this point. After some poking around, I found something interesting at /root (full path for ls was required)
+My home network wouldn't allow me to catch a reverse shell, but burpsuite is all the shell I need at this point. After some poking around, I found something interesting at / (full path for ls was required)
 
 ![Burp3](/auctf2020/img/binls.png)
 
